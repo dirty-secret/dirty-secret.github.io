@@ -7,7 +7,7 @@
 	<link rel="shortcut icon" href="" />
 	<style>
 	body{
-		background:lime;
+		background:#dddddd;
 		font-family: courier new;
 	}
 	h1{
@@ -18,35 +18,10 @@
 		width:32%;
 	}
 	</style>
-	<script type="application/x-javascript">
-	var n = 0;
-	var colors = ["Gold", "White", "Lime", "Yellow", "Deeppink", "Dodgerblue", "Purple", "Crimson", "Fuchsia", "GreenYellow", "Hotpink"];
-	function increment() {
-            setTimeout(function () {
-                if (n <= 333){
-                	if (n % 11 == 3) console.log(n);
-                	document.getElementsByTagName("h1")[0].appendChild(document.createTextNode(" " + n));
-                	n = n+1;
-                }
-                increment();
-            }, 50);
-        }
-
-        window.onload = function () {
-            increment();
-        }
-    </script>
 </head>
 <body>
-	<h1></h1>
-	<script type="application/x-javascript">
-	window.onclick = function () {
-		var mycolor = colors[Math.floor(Math.random() * colors.length)];
-		document.getElementsByTagName("body")[0].style.backgroundColor = mycolor;
-		console.log(mycolor);
-		//document.getElementsByTagName("h1")[0].innerHTML = "Hello World " + mycolor;
-		n = 0;
-	}
-	</script>
+	<img src="https://live.staticflickr.com/65535/50105353641_7e2ba3cd03_c.jpg" />
+	<img src="https://live.staticflickr.com/652/23688073046_47d50da915_c.jpg" />
+	<img src="https://live.staticflickr.com/65535/50105353641_7e2ba3cd03_c.jpg" />
 </body>
 </html>
